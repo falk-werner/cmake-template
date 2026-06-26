@@ -1,0 +1,16 @@
+#include "example/meta.hpp"
+
+namespace example
+{
+
+char const * name() noexcept
+{
+    return "@CMAKE_PROJECT_NAME@";
+}
+
+char const * version() noexcept
+{
+    return "@CMAKE_PROJECT_VERSION@";
+}
+
+}
